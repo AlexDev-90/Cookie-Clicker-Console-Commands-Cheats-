@@ -13,7 +13,7 @@ resetGame(); -- resets game data
     const gameData = JSON.parse(localStorage.getItem('CookieClickerSave'));
 
     // Set the desired number of cookies (replace with your desired amount)
-    const newCookieAmount = 1000000;  // Example: 1 million cookies
+    const newCookieAmount = 1000000;
 
     // Update the cookies in the game data
     gameData.cookies = newCookieAmount;
