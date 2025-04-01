@@ -25,6 +25,8 @@ resetGame(); -- resets game data
 })();
 **END OF BUNDLED CODE** (edit "newCookieAmount = ((whatever amount of cookies you want))) 
 
+Check the files of the repository for newer files that I may have added, as I won't be updating this super frequently.
+
 **NOTE; MAY NEED TO RELOAD FOR CHANGES TO TAKE EFFECT!**
 
 
