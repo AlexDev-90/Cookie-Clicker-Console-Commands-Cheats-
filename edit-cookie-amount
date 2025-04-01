@@ -1,0 +1,15 @@
+(function() {
+    // Get the current game data
+    const gameData = JSON.parse(localStorage.getItem('CookieClickerSave'));
+
+    // Set the desired number of cookies (replace with your desired amount)
+    const newCookieAmount = replace this with cookie amount;
+
+    // Update the cookies in the game data
+    gameData.cookies = newCookieAmount;
+
+    // Save the updated game data back to localStorage
+    localStorage.setItem('CookieClickerSave', JSON.stringify(gameData));
+
+    console.log(`Cookies updated to ${newCookieAmount}. Reload the game to see changes.`);
+})();
